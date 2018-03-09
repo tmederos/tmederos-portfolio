@@ -28,6 +28,7 @@
                 url: "/send-mail.php",
                 data: dataString,
                 success: function () {
+                    console.log( "success email", dataString );
                     $('.successContent').fadeIn(1000);
                     $('.errorContent').fadeOut(500);
                 }
