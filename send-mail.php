@@ -37,7 +37,6 @@ EMAIL;
 $header = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
     'Reply-To: ' . $_POST["email"] . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-console.log( "TO:  " + $to)
   //
  // mail( $to , $_POST['subject'], $_POST['message'], $headers );
  mail($to, $subject, $body, $header);
