@@ -6,8 +6,8 @@
  * The IMAP section shows how to save this message to the 'Sent Mail' folder using IMAP commands.
  */
 //Import PHPMailer classes into the global namespace
-require 'vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
+require 'src/PHPMailer.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
