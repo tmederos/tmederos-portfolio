@@ -1,12 +1,13 @@
 <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $to = 'trishmederos@gmail.com'; // Change your email address
 
 
-$name = $_POST['name'];
-$subject = $_POST['subject'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+$name = $_POST['form-name'];
+$subject = $_POST['form-subject'];
+$email = $_POST['form-email'];
+$message = $_POST['form-message'];
 
 
 // Email Submit
@@ -42,5 +43,6 @@ $header = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
  mail($to, $subject, $body, $header);
   //      ^
   //  Replace with your email
+}
 }
 ?>
