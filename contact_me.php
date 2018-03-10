@@ -7,7 +7,7 @@
  */
 //Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
-require 'src/PHPMailer.php';
+require './src/PHPMailer.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
