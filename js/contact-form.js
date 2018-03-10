@@ -25,7 +25,8 @@
         if (validEmail(email) && (message.length > 1) && (name.length > 1)) {
             $.ajax({
                 type: "POST",
-                url: "/send-mail.php",
+                // url: "/send-mail.php",
+                url: "/contact_me.php",
                 data: dataString,
                 success: function () {
                     console.log( "success email", dataString );
