@@ -3160,14 +3160,14 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
     .footer .social li {
         list-style: none;
         display: inline-block;
-        margin: 0 2px;
+        margin: 0 20px;
     }
 
         .footer .social li a {
-            height: 36px;
-            width: 36px;
+            height: 60px;
+            width: 60px;
             display: block;
-            font-size: 16px;
+            font-size: 48px;
             text-align: center;
             line-height: 32px;
             border: 2px solid #333;
