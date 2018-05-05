@@ -6,7 +6,7 @@ My current portfolio created with a WrapBootstrap template called Mazel. The tem
 https://wrapbootstrap.com/search?q=mazel
 
 ---
-Check out the portfolio running on heroku here: https://stormy-brook-88523.herokuapp.com/
+Check out the portfolio running on heroku here: https://tmederos.herokuapp.com/
 
 ---
 # Screenshot - Main Page
